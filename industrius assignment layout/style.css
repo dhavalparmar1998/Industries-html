@@ -1,0 +1,323 @@
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    position: relative;
+    background: #fff;
+    color: #444444;
+  }
+  body::before{
+    content: " ";
+    background-image: url(/images/bg.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    opacity: .05;
+  }
+  .header{
+    width: 100%;
+  }
+  .mynavbar{
+    background: #000;
+    color: #fff;
+  }
+  .mynavbar .navbar-brand{
+    color: #fff;
+  }
+  .mynavbar .navbar-toggler{
+    background-color:#fff;
+  }
+  .mynavbar .navbar-toggler:hover{
+    background-color:#ce1b28;
+    color: #fff;
+  }
+  .video{
+    position: relative;
+    /* border: 5px solid red; */
+    width: 100%;
+    height:100%;
+    padding: 0;
+  }
+  .image-img{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+  }
+  .video::before{
+    /* background: linear-gradient(135deg, #ce1b28 0%, #111111 74%); */
+    background: #111;
+    content: ' ';
+    display: block;
+    height:100%;
+    left: 0;
+    opacity: 0.3;
+    position: absolute;
+    bottom:1%;
+    width: 100%;
+    z-index:1;
+  
+  } 
+  
+  
+  .video::after{
+      background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);
+      content: ' ';
+      display: block;
+      height:99%;
+      left: 0;
+      opacity: 0.7;
+      position: absolute;
+      top: 0;
+      width: 100%;
+  
+    } 
+     .innertext{
+      padding: 100px 165px;
+      position: absolute;
+      top: 20%;
+      z-index: 1;
+      text-align: center;
+    }
+    .innertext h1{
+      text-align: center;
+      letter-spacing: 1px;
+      color: #fff !important;
+      font-size: 65px;
+      text-transform: uppercase;
+      font-weight: 400;
+    }
+    .innertext p{
+      font-size: 24px;
+      padding: 10px 175px;
+      text-align: center;
+      color: rgba(255,255,255,.6);
+    } 
+   
+  
+  
+    /* section 2 start */
+  
+    .second-section,.fourth-section{
+      padding:120px 0;
+    }
+  
+    .second-text,.fourth-text{
+      padding:0px 250px;
+      text-align: center;
+      z-index: 1;
+      letter-spacing:2px;
+    }
+  
+    .second-text h1,  .fourth-text h1{
+      font-size:36px;
+      color: #555;
+      font-weight: normal;
+      text-transform: uppercase;
+    }
+    .second-text p,.fourth-text p{
+      padding-top: 20px;
+      color: #555;
+    }
+    .inner-column {
+      background-color: #fff;
+      padding: 3rem;
+      box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025);
+      margin: 40px;
+      width: calc(33.33% - 80px);
+    }
+   
+    .inner-column  header{
+      width:80%;
+      margin: 0 auto;
+      
+    }
+    .inner-column  header a{
+      display: flex;
+      font-size: 80px;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      color: #ce1b28;;
+  
+    }
+    .inner-column  header h4{
+      margin-top: 30px;
+      font-size:16px;
+      text-align: center;
+      font-weight: 300;
+      color:#444;
+      text-transform: uppercase;
+    }
+    .inner-column p{
+      padding:15px 20px;
+      text-align: center;
+      color: #444;
+    }
+  
+    /* section-3 start */
+    .section-3{
+      background-color: #ce1b28;
+      color: rgba(255,255,255,.6);
+      background-attachment: fixed;
+      background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)),
+      url('/images/cta01.jpg');
+      background-position: bottom;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      text-align: center;
+      z-index: -1;
+      
+    }
+    .outertext{
+      padding: 120px 250px;
+      z-index:1;
+      color: #fff;
+    }
+    .outertext h5{
+      font-size: 56px;
+      
+      font-weight: 300;
+    }
+    .outertext p{
+      padding: 30px 0;
+      
+    }
+  .content{
+    height: 100%;
+    border-radius: 4px;
+    padding:50px;
+    background: #ffffff;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025);
+    margin-top: 50px;
+    width: 80%;
+  }
+    .blockquote {
+      border-left: solid 0.5rem;
+      font-style: italic;
+      margin: 0 0 2rem 0;
+      padding: 1rem 0 1rem 2rem;
+      
+    }
+    .blockquote p{
+      font-size:16px;
+    }
+    .author {
+      display: flex;
+    }
+    .author .image{
+      width: 30%;
+    }
+    .author .image img{
+      width: 100% !important;
+      border-radius: 50%;
+    }
+    .author .credit{
+      width: 70%;
+    }
+    .author .credit p{
+      font-size: 13px;
+      margin-top:20px ;
+    }
+    .author .credit span{
+      color: #ce1b28;
+      font-weight: 500;
+    }
+  
+  
+    /* footer start */
+  
+    .footer{
+      width: 100%;
+      background:#111;
+      padding:6rem 6rem 2rem 6rem;
+      color: rgba(255,255,255,.6);
+    }
+  
+    .footer-center{
+      width:90%;
+    }
+  
+   
+    .footer-main h3,.footer-text h5{
+      font-weight: 300;
+      line-height: 1.5;
+      text-align: left;
+      text-transform: uppercase;
+      color: #fff;
+    }
+    .footer-main p{
+     line-height: 1.5;
+     text-align: left;
+     margin-top: 20px;
+     padding:0 50px 0 0px;
+    }
+  .footer-text h5,.footer-icon h5{
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+    .footer-text,.footer-icon{
+      margin-left:  30px;
+      width:calc(25% - 30px);
+    }
+    .footer-text ul,.footer-icon ul{
+      margin-top: 30px;
+      padding-left: 0;
+    }
+    .footer-text li{
+      border-bottom: 1px solid rgba(255,255,255,.6);
+    }
+    .footer-text a,.footer-icon a{
+      text-align: left;
+      color: rgba(255,255,255,.6);
+      
+      margin-bottom: 10px;
+      padding:10px 0 10px 0;
+      font-weight: 100;
+    }
+    .footer-text li:last-child{
+      border-bottom: none;
+    }
+   .footer-icon a{
+    font-weight: 500;
+   }
+  
+    .footer-text ul li a:hover{
+      color: #ce1b28;
+    }
+    .footer-icon a i{
+      color: #fff;
+      position: relative;
+      width: 30px;
+      height: 30px;
+      background-color: #000;
+      text-align: center;
+      padding: 7px;
+    }
+  .footer-icon a:hover{
+    color: #ce1b28;
+  }
+  .footer-icon a span{
+    padding-left: 10px;
+  }
+  .footer-end{
+    margin-top: 50px;
+    text-align: center;
+    border-top: 1px solid rgba(255,255,255,.6);
+  }
+  .footer-end p{
+    padding-top: 50px;
+  }
